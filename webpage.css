@@ -1,0 +1,586 @@
+*{
+    padding: 0px;
+    margin: 0.px;
+}
+.nav{
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    display: flex;    
+}
+.nav span{
+    position: relative;
+    left: 150px;
+    top: -5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+.nav ol{
+    list-style-type: none;
+    overflow: hidden;
+    
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+    left: 450px;
+}
+.nav li{
+    float: left;
+    padding: 15px;
+}
+.nav a{
+    text-transform: capitalize;
+    color: black;
+    font-family: normal;
+    
+}
+.nav i{
+    font-size: 32px;
+    position: relative;
+    top: -10px;
+}
+.nav a{
+    transition-property: text, background-color;
+    transition-duration: 5s;
+    transition-duration: 5s;
+    padding: 5px;
+    width: 10px;
+    font-size: 21x;
+}
+a:hover{
+    text-decoration: none;
+    background-color: aqua;
+    border-radius: 100%;   
+}
+.bgimg{     
+    background-image: linear-gradient(rgba(243, 236, 236, 0.5),rgba(247, 244, 244, 0.5)),url(https://mobirise.com/extensions/motionm5/video-agency/assets/images/mbr-1920x1277.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 10px;
+    position: sticky;
+}
+.circle{
+    animation-duration: 2.25s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: circleFill;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: black;
+    position: relative;
+    left: 12px;
+    top: 40px ;
+}
+.noncircle{
+    animation-duration: 2.25s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: circleNull;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 100%;
+    position: relative;
+    
+    left: 10PX;
+}
+@keyframes circleFill{
+
+    50%{left: 20px; right: -20px;}
+    50%{left: -20px; right: 0px;}
+}
+@keyframes circleNull{
+    50%{right: 20px; left: -25px;} 
+    50%{right: -25px; left: 20px;}     
+}
+.divh1{
+    width: 600px;
+    font-size: 30px;
+}
+.div2{
+    margin-left: 150px;
+}
+.div3{
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+    align-items: center;
+}
+.div4{
+    width: 400px;
+    padding: 30px;
+    margin-left: 100px;
+    line-height: 25px;
+}
+.div4 p{
+    position: relative;
+    top: 20px;
+    color: black;
+}
+
+.div4 h1{
+    line-height: 40px;
+    font-size: 40px;
+}
+.td1{
+    width: 100px;
+    padding: 50px;
+}
+.td1 img{
+    width: 250px;
+ width: 250px;
+}
+.tb1 td{
+    border-left: 2px dotted rgba(85, 84, 84, 0.493);
+}
+.td3a{
+    border-right: 2px dotted rgba(90, 90, 90, 0.418) ;
+}
+.sp1{
+    position: relative;
+    top: 40px;
+}
+
+.sp2{
+    position: relative;
+    top: -50px;
+}
+.sp3{
+    position: relative;
+    top: 80px;
+}
+.div5{
+    padding: 150px;
+    box-sizing: border-box;
+}
+.tr1 h2{
+    font-size: 30px;
+}
+.sp4{
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    position: absolute;
+}
+.div6{
+    display: flex;
+    
+    padding: 10px;
+}
+.div7 img{
+    width: 650px;
+    height: 600px;
+}
+.div7{
+    padding: 30px;
+}
+.div8{
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    box-sizing: border-box;
+    padding: 30px;
+    line-height: 25px;  
+    margin-left: 50px;
+    
+}
+.div8 h1{
+    line-height: 50px;
+    font-size: 50px;
+}
+
+.div9a:hover
+{  
+    transform: scale(1.2)
+}
+
+
+.div9{
+    width: 70px;
+    height: 70px;
+    border: 2px solid rgba(0, 0, 0, 0.726);
+    
+}
+.div9a{
+    width: 55px;
+    height: 55px;
+    background-color: purple;
+    position: relative;
+    left: 7px;
+    top: -7px;
+    transition: transform 2s;
+    transition-duration: 2s;
+
+}
+.div10{
+    width: 1000px;
+    border-bottom: 2px dotted rgba(0, 0, 0, 0.575);
+    margin-left: 130px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+.div12
+{
+    width: 200px;
+}
+.div12 h1{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    /* background-color: red; */
+    
+        position: relative;
+    top:-40px;
+    animation-direction: alternate;
+    right: -20px;
+    animation-name: redcircle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.div12 p{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.712);
+    position: relative;
+    top: 65px;
+    animation-direction: alternate;
+    left: -20px;
+    animation-name: nulcircle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes redcircle{
+    0%{right: 0px; }
+    100%{right:60px; }
+}
+@keyframes nulcircle{
+    0%{left: 0px; }
+    100%{left: 60px; }
+}
+
+.div13{
+    width: 300px;
+}
+.div14{
+    width: 400px;
+
+}
+
+.div11{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin-left: 200px;
+    border-bottom: 2px dotted rgba(124, 123, 123, 0.699);
+    position: relative;
+    left: -20px;
+    width: 1000px;
+}
+.div15{
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    margin-left: 230px;
+    border-bottom: 2px dotted rgba(119, 118, 118, 0.534);
+    width: 1000px;
+}
+.div16{
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    padding: 30px;
+    margin-left: 200px;
+    border-bottom: 2px dotted rgba(97, 96, 96, 0.541);
+}
+.div17{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin-left: 100px;
+    width: 1000px;
+}
+.spn6
+{
+    writing-mode: vertical-rl;
+    text-orientation:  initial;
+    
+    position: absolute;
+}
+.div18{
+    padding: 5px;
+    box-sizing: border-box;
+    height: 1050px;
+}
+.div18 img{
+    padding-left: 40px;
+    width: 1250px;  
+
+}
+
+.div19{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(17, 199, 199);
+    border-radius: 100%;
+    text-align: center ;
+    /* align-items: center center; */
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding-top: 80px;
+    position: relative;
+    top: -540px;
+    left: 500px;
+    
+}
+.div19:hover{
+    transform: scale(1.1);
+}
+.div19 span{
+    color: aliceblue;
+    font-size: 30px;
+}
+.div20{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    z-index: -1;
+    position: relative;
+    left: 1070px;
+    top: -430px;
+}
+.div21
+{
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 30px;
+    margin-left: 30px;
+    border-top: 2px dotted rgba(66, 66, 66, 0.521);
+    position: relative;
+     top: -20px;
+     padding-top: 20px;
+}
+.div22{
+     width: 400px;
+     padding-left: 50px;
+     box-sizing: border-box;
+     
+}
+.div23{
+    width: 100px;
+    margin-left: 200px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    line-height: 25px;
+}
+.div24{
+    width: 100px;
+    margin-left: 200px;
+    padding-left: 18px;
+    line-height: 35px;
+    box-sizing: border-box;
+    text-align: end;
+}
+.div25{
+    text-align: center;
+}
+.div27{
+    width: 400px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 50px;
+    border-left: 2px dotted black;
+    padding-left: 20px;
+}
+.div28 input{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+.div28 textarea{
+    margin-left: 12px;
+    padding: 10px;
+}
+.div28 button{
+    width: 130px;
+    margin-left: 200px;
+    padding: 10px;
+    border-style: none;
+    margin-top: 10px;
+}
+.div29
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.div30
+{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgba(0, 0, 0, 0.616);
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+.div29:hover{
+    transform: rotate(45deg)
+} 
+.div31{
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 80px;
+    border-left: 2px dotted rgba(0, 0, 0, 0.589);
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.div32{ 
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 80px;
+    padding-left: 20px;
+    border-left: 2px dotted rgba(0, 0, 0, 0.562);
+    border-right: 2px dotted rgba(0, 0, 0, 0.63);
+    padding-top: 100px;
+}
+.div26{
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.div34 p{
+            position: relative;
+            top: -130px;
+            padding: 5px;
+            color: rgb(242, 245, 247);
+}
+.div34 h4{
+    position: relative;
+    top: -130px;
+    padding: 5px;
+    color: rgb(242, 245, 247);
+}
+.div34 span{
+    margin-left: 100px;
+}
+.div34{
+    padding: 50px;
+    box-sizing: border-box;
+}
+.div34 img{
+    width: 270px;
+    height: 200px;
+    
+}
+.div35{
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 110px;
+}
+.div33 h1{
+    text-align: center;
+}
+.div34 img:hover
+{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493),-5px -5px 10px rgba(0, 0, 0, 0.493);
+    transform: scale(1.01);
+    transition-duration: 1s;
+}
+.div36 pre
+{
+        width: 655px;
+        border-bottom: dotted 2px rgba(0, 0, 0, 0.575);
+        color: black;
+        line-height: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.div36{
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 330px;
+    
+}
+.div37{
+        position: relative;
+        top:-100px;
+}
+.div38{
+    width: 1000px;
+    margin-left: 200px;
+}
+.div39{
+    width: 1000px;
+    margin-left: 200px;
+    padding-top: 20px;
+
+}
+.div39 li{
+    float:right;
+    list-style-type: disc;
+}
+.div40{
+    width: 100%;
+    height: 50px;
+    padding-left: 200px;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+    opacity: 0.9;
+}
+.spnl1{
+    position: relative;
+    left: -350px;
+    
+}
+.spnl1 a{
+    color: white;
+}
+ p
+{
+    font-size: 20px;
+}
+a
+{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    border-bottom: 1px solid;
+}
+a:hover
+{
+    border-bottom: none;
+
+}
+.div4 p
+{
+    font-size: 25px;
+    width: 500px;
+}
+*
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li a
+{
+    font-size: 15px;
+}
+.div39 a
+{
+    padding: 20px;
+}
+
+
